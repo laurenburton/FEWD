@@ -1,0 +1,75 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+	background: black;
+	padding: 24px;
+	/*overflow: auto;*/
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	color: yellow;
+	font-size: 24px;
+}
+
+header ul{
+	float: right;
+	width: 80%;
+}
+
+header li{
+	float: left;
+	margin-right: 2%; 
+}
+
+header li,
+header a{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;  
+}
+
+header a{
+	padding: 5px 10px;
+}
+
+/*header li:first-child a,
+header li:nth-child(2) a{
+	font-family: 'Oswald';
+	text-transform: uppercase;
+}*/
+
+.staff-link{
+	font-family: 'Oswald';
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
